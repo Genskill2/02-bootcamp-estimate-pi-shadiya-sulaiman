@@ -39,8 +39,8 @@ def monte_carlo(n):
     for i in range(n):
         x = 2*random()-1
         y = 2*random()-1
-    if x*x + y*y <= 1:
-        c += 1
+        if x*x + y*y <= 1:
+            c += 1
     return(4.0*c/n) 
  
         
